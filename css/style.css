@@ -1,0 +1,1783 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(244, 246, 252);
+}
+
+.container {
+  gap: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 0%;
+  max-width: 1720px;
+  width: 100%;
+}
+header a {
+  cursor: pointer;
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 3%;
+  text-align: left;
+  text-decoration: none;
+}
+header .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+header .menu a {
+  cursor: pointer;
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 520;
+  line-height: 29px;
+  letter-spacing: 3%;
+  text-align: left;
+  text-decoration: none;
+}
+header .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 14px 46px;
+  border-radius: 46px;
+  background: rgb(31, 83, 225);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 56px;
+  height: 900px;
+  padding: 0% 2%;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-image: url(../img/Hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1720px;
+  width: 100%;
+}
+main .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 74px;
+  padding-left: 80px;
+}
+main .info h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 94.73px;
+  font-weight: 700;
+  line-height: 115px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 701.96px;
+}
+main .info .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main .info .btns .btn1 {
+  border-radius: 46px;
+  background: rgb(31, 83, 225);
+  padding: 15px 46px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+  cursor: pointer;
+}
+main .info .btns .btn2 {
+  border-radius: 46.59px;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  width: 52px;
+  height: 52px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.booking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1720px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+.booking .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0px;
+}
+.booking .container .up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  width: 450px;
+  height: 118px;
+  border-radius: 69.15px 69.15px 0px 0px;
+}
+.booking .container .up .btn-fly {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9.75px;
+  background: rgb(31, 83, 225);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 23.4px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 3%;
+  text-align: left;
+  border: none;
+  padding: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+.booking .container .up .btn-hotel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9.75px;
+  background: rgb(247, 247, 247);
+  color: rgb(31, 83, 225);
+  font-family: Inter;
+  font-size: 23.4px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 3%;
+  text-align: left;
+  border: none;
+  padding: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+.booking .container .down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1235px;
+  background-color: #fff;
+  height: 245px;
+  border-radius: 0px 69.15px 69.15px 69.15px;
+}
+.booking .container .down .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.booking .container .down .content .left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 30px;
+  box-sizing: border-box;
+  border: 1.5px solid rgba(30, 30, 30, 0.2);
+  border-radius: 35px;
+}
+.booking .container .down .content .left .location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+.booking .container .down .content .left .location .img-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 45px;
+  background: rgb(240, 240, 240);
+}
+.booking .container .down .content .left .location .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.booking .container .down .content .left .location .info h2 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.booking .container .down .content .left .location .info p {
+  color: rgba(30, 30, 30, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.booking .container .down .content .left .passengers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+.booking .container .down .content .left .passengers .img-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 45px;
+  background: rgb(240, 240, 240);
+}
+.booking .container .down .content .left .passengers .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.booking .container .down .content .left .passengers .info h2 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.booking .container .down .content .left .passengers .info p {
+  color: rgba(30, 30, 30, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.booking .container .down .content .right {
+  box-sizing: border-box;
+  border: 1.5px solid rgba(30, 30, 30, 0.2);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 30px;
+}
+.booking .container .down .content .right .arrival {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+.booking .container .down .content .right .arrival .img-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 45px;
+  background: rgb(240, 240, 240);
+}
+.booking .container .down .content .right .arrival .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.booking .container .down .content .right .arrival .info h2 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.booking .container .down .content .right .arrival .info p {
+  color: rgba(30, 30, 30, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 118px;
+}
+.booking .container .down .content .right .departure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+.booking .container .down .content .right .departure .img-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 45px;
+  background: rgb(240, 240, 240);
+}
+.booking .container .down .content .right .departure .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.booking .container .down .content .right .departure .info h2 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.booking .container .down .content .right .departure .info p {
+  color: rgba(30, 30, 30, 0.7);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 118px;
+}
+
+.tours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1720px;
+  width: 100%;
+}
+.tours .name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.tours .name .title h1 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.tours .name .title p {
+  color: rgba(30, 30, 30, 0.7);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+.tours .name .btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.tours .name .btns .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
+  border: none;
+  border-radius: 169.66px;
+  background: rgb(236, 236, 236);
+  cursor: pointer;
+}
+.tours .name .btns .left img {
+  margin: -5px 0px;
+}
+.tours .name .btns .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
+  border: none;
+  border-radius: 169.66px;
+  background: rgb(31, 83, 225);
+  cursor: pointer;
+}
+.tours .name .btns .right img {
+  margin: -5px 0px;
+}
+.tours .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 0px;
+  width: 100%;
+}
+.tours .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.tours .cards .card img {
+  border-radius: 50px;
+}
+.tours .cards .card .desc {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.tours .cards .card .desc .Hotel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.tours .cards .card .desc .Hotel p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 23.4px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.tours .cards .card .desc .Hotel .location {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.tours .cards .card .desc .Hotel .location p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 15.83px;
+  font-weight: 450;
+  line-height: 19px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.tours .cards .card .desc .grade p {
+  color: rgb(31, 83, 225);
+  font-family: Axiforma;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 59px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1720px;
+  width: 100%;
+}
+.about-us .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.about-us .title h1 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about-us .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+.about-us .info .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 55px;
+  background: rgb(255, 255, 255);
+  width: 390px;
+  height: 235px;
+}
+.about-us .info .card .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-us .info .card .text h1 {
+  color: rgb(31, 83, 225);
+  font-family: Inter;
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 116px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.about-us .info .card .text p {
+  color: rgb(31, 83, 225);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1720px;
+  width: 100%;
+}
+.info .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+.info .title h1 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.info .title p {
+  color: rgba(30, 30, 30, 0.7);
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -2%;
+  text-align: center;
+  width: 550px;
+}
+.info .info-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.info .info-cards .info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.info .info-cards .info-card p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+  width: 500px;
+}
+.info .info-cards .info-card .info-card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.info .info-cards .info-card .info-card-title h2 {
+  color: rgb(31, 83, 225);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -2%;
+  text-align: left;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1720px;
+  width: 100%;
+}
+.reviews .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+}
+.reviews .title h2 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.reviews .reviews-place {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.reviews .reviews-place .review {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: none;
+  padding: 11px 0px 11px 0px;
+}
+.reviews .reviews-place .review .user-img {
+  position: relative;
+  top: 75px;
+}
+.reviews .reviews-place .review .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 50px 72px 50px;
+  gap: 20px;
+  border-radius: 55px;
+  background: rgb(255, 255, 255);
+}
+.reviews .reviews-place .review .box .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+.reviews .reviews-place .review .box .name h2 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 550;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reviews .reviews-place .review .box .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+.reviews .reviews-place .review .box .desc p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: -2%;
+  text-align: left;
+  width: 380px;
+}
+.reviews .reviews-place .review .box .grade {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1720px;
+  width: 100%;
+}
+.partners h1 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.partners .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 79px;
+}
+.partners .list .partner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.partners .list .partner h2 {
+  color: rgb(180, 180, 180);
+  font-family: Inter;
+  font-size: 37.36px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1720px;
+  width: 100%;
+  align-items: center;
+}
+.faq h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #1e1e1e;
+}
+.faq span {
+  color: #1F53E1;
+}
+.faq .faq-list {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-direction: column;
+}
+.faq .faq-list .faq-line {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+.faq .faq-list .faq-line .faq {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 29px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px 25px 30px;
+  width: 850px;
+  cursor: pointer;
+}
+.faq .faq-list .faq-line .faq p {
+  color: rgb(13, 13, 13);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 1720px;
+  width: 100%;
+}
+.hero .l {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+}
+.hero .l .title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.hero .l .title p {
+  color: rgb(31, 83, 225);
+  font-family: Inter;
+  font-size: 25.62px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+}
+.hero .l h1 {
+  font-family: Inter;
+  font-size: 81.12px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+  color: #1E1E1E;
+}
+.hero .l h1 span {
+  color: #1F53E1;
+}
+.hero .l .desc {
+  width: 100%;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-left: 3px solid rgb(31, 83, 225);
+  display: flex;
+}
+.hero .l .desc p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 25.62px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+  opacity: 80%;
+}
+.hero .l .btns {
+  display: flex;
+  gap: 30px;
+}
+.hero .l .btns button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 27px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 25.62px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+  border-radius: 21px;
+  border: none;
+  background: rgb(31, 83, 225);
+}
+.hero .l .btns button:nth-child(2) {
+  box-sizing: border-box;
+  border: 2px solid rgb(31, 83, 225);
+  border-radius: 21px;
+  background-color: #F4F6FC;
+}
+.hero .l .btns button:nth-child(2) a {
+  color: rgb(31, 83, 225);
+  font-family: Inter;
+  font-size: 25.62px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+  text-decoration: none;
+}
+.hero .r {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-us-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 1720px;
+  width: 100%;
+  gap: 50px;
+}
+.about-us-info .r {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+.about-us-info .r .up {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-us-info .r .up .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-us-info .r .up .text .title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.about-us-info .r .up .text .title p {
+  color: rgb(31, 83, 225);
+  font-family: Inter;
+  font-size: 25.58px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+}
+.about-us-info .r .up .text h1 {
+  font-family: Inter;
+  font-size: 51.16px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+  color: #1E1E1E;
+}
+.about-us-info .r .up .text h1 span {
+  color: #1F53E1;
+}
+.about-us-info .r .up .desc p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  opacity: 80%;
+  font-size: 25.58px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+}
+.about-us-info .r .info {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.about-us-info .r .info .block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 20.56px;
+  background: rgb(255, 255, 255);
+  max-width: 296px;
+  width: 100%;
+}
+.about-us-info .r .info .block .logo {
+  display: flex;
+  border-radius: 10px;
+  background: rgba(31, 83, 225, 0.2);
+  max-width: 40px;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.about-us-info .r .info .block .text {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.about-us-info .r .info .block .text h3 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 22.61px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+}
+.about-us-info .r .info .block .text p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 18.5px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+  opacity: 80%;
+}
+
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 1720px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 80px;
+}
+.mobile .info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 100px;
+}
+.mobile .info .text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+.mobile .info .text h1 {
+  max-width: 629px;
+  width: 100%;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #1E1E1E;
+}
+.mobile .info .text h1 span {
+  color: #1A73E8;
+}
+.mobile .info .text p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 675px;
+  width: 100%;
+}
+.mobile .info .btns {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  width: 100%;
+}
+.mobile .info .btns .apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15.15px;
+  width: 239.43px;
+  height: 100.02px;
+  background: rgb(255, 255, 255);
+  gap: 15px;
+  cursor: pointer;
+}
+.mobile .info .btns .apple p {
+  width: 143px;
+  color: rgb(53, 53, 53);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mobile .info .btns .apple p span {
+  font-size: 30px;
+}
+.mobile .info .btns .google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15.15px;
+  width: 239.43px;
+  height: 100.02px;
+  background: rgb(255, 255, 255);
+  gap: 15px;
+  cursor: pointer;
+}
+.mobile .info .btns .google p {
+  width: 143px;
+  color: rgb(53, 53, 53);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mobile .info .btns .google p span {
+  font-size: 30px;
+}
+.mobile .img {
+  width: 100%;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 1700px;
+  width: 100%;
+  padding: 50px 100px;
+  background-color: #DFE6F9;
+  align-items: center;
+  justify-content: center;
+}
+.steps h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #1E1E1E;
+}
+.steps h1 span {
+  color: #1F53E1;
+}
+.steps .step-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.steps .step-box .step-line {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.steps .step-box .step-line .step {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 30px;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+}
+.steps .step-box .step-line .step .number {
+  border-radius: 10px;
+  background: rgba(31, 83, 225, 0.1);
+  width: 50px;
+  height: 50px;
+  color: rgb(31, 83, 225);
+  font-family: Montserrat;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.steps .step-box .step-line .step h2 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.steps .step-box .step-line .step p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 426.67px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.list .booking {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list .booking .type {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.list .booking .type .search {
+  display: flex;
+  flex-direction: row;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Inter;
+  font-size: 27.1px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0%;
+  align-items: center;
+  border: none;
+  text-align: left;
+  padding-left: 20px;
+  width: 333px;
+  border-radius: 24.64px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.list .booking .type .place {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 27.32px;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  width: 100%;
+}
+.list .booking .type .place .type-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 24px;
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0%;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+}
+.list .booking .type .place .type-btn-active {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 24px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 27.32px;
+  background: rgb(31, 83, 225);
+  cursor: pointer;
+}
+.list .booking .filter {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.list .booking .filter .place {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 27.32px;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+}
+.list .booking .filter .place .filter {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 20px 24px;
+  border-radius: 15px;
+  background: rgb(241, 243, 245);
+  color: rgb(136, 137, 138);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+  align-items: center;
+}
+.list .booking .filter .place .filter img {
+  width: 35px;
+  height: 35px;
+}
+.list .booking .filter .save {
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  background: rgb(31, 83, 225);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 235px;
+  cursor: pointer;
+}
+.list .hotel-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 45.5px;
+}
+.list .hotel-list .hotel-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 25px 25px;
+}
+.list .hotel-list .hotel-card .hotel-img img {
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
+.list .hotel-list .hotel-card .hotel-info {
+  padding: 25px 30px;
+  background-color: #fff;
+  border-radius: 0px 0px 25px 25px;
+  width: 483px;
+  gap: 6.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.list .hotel-list .hotel-card .hotel-info h3 {
+  color: rgba(38, 38, 38, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100.9%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list .hotel-list .hotel-card .hotel-info h1 {
+  color: rgb(38, 38, 38);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 41.92px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list .hotel-list .hotel-card .hotel-info p {
+  color: rgb(105, 104, 104);
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 123.9%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list .hotel-list .hotel-card .hotel-info h4 {
+  color: rgb(136, 137, 138);
+  font-family: Inter;
+  font-size: 18.1px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list .hotel-list .hotel-card .hotel-info h2 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 28.96px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list .hotel-list .hotel-card .hotel-info .about {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.list .hotel-list .hotel-card .hotel-info .about p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 19.91px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list .hotel-list .hotel-card .hotel-info .info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.list .hotel-list .hotel-card .hotel-info .info p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list .hotel-list .hotel-card .hotel-info .info span {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 28.96px;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list .hotel-list .hotel-card .hotel-info .info .rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.list .hotel-list .hotel-card .hotel-info .info .rate p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 23.53px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.list .pages {
+  display: flex;
+  flex-direction: row;
+  gap: 12.5px;
+}
+.list .pages .num {
+  width: 50px;
+  height: 50px;
+  color: rgb(31, 83, 225);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 12.5px;
+  background: rgba(31, 83, 225, 0.2);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.list .pages .num:nth-child(1) {
+  cursor: pointer;
+  border-radius: 12.5px;
+  background: rgb(31, 83, 225);
+  color: #fff;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px;
+  border-radius: 80px;
+  background: rgb(255, 255, 255);
+  max-width: 1520px;
+  width: 100%;
+}
+.contact-us .info {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.contact-us .info .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.contact-us .info .title h1 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact-us .info .title .media {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.contact-us .info .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+.contact-us .info .inputs .info-line {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 32px;
+  width: 100%;
+}
+.contact-us .info .inputs .info-line .input {
+  display: flex;
+  width: 100%;
+  padding: 32px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.contact-us .info .inputs .info-line .input p {
+  /* Sub heading 2 */
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact-us .info .inputs .input {
+  display: flex;
+  width: 100%;
+  padding: 10px 10px 100px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.contact-us .info .inputs .input p {
+  /* Sub heading 2 */
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact-us .info .inputs button {
+  border-radius: 20px;
+  background: rgb(31, 83, 225);
+  gap: 10px;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 352px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  max-width: 1423px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 80px 240px;
+  background-color: #fff;
+}
+.contact-info .title {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contact-info .title p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact-info .title h1 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+  width: 575px;
+  text-align: left;
+}
+.contact-info .info {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  max-width: 550px;
+  width: 100%;
+}
+.contact-info .info .work-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contact-info .info .work-info h3 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.contact-info .info .work-info p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 246px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1720px;
+  width: 100%;
+}
+.footer h1 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+}
+.footer .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+}
+.footer .content .list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+.footer .content .list h2 {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer .content .list .column p {
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
